@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace ;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    display: block;
+    margin: 0 auto;
+    width: 150px; 
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+.coding-languages {
+    margin: 20px 0;
+}
+
+.coding-languages .language {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.coding-languages .language img {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.github-projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.github-projects li {
+    margin: 5px 0;
+}
+
+.github-projects a {
+    color: white;
+    text-decoration: none;
+}
+
+.github-projects a:hover {
+    text-decoration: underline;
+}
+￼Enter
